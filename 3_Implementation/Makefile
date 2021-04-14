@@ -18,8 +18,36 @@ SRC= src/circle.c\
 	src/sphere.c\
 main.c\
 
+
+# All test source files
+TEST_SRC = src/circle.c\
+	src/cube.c\
+	src/parallelogram.c\
+	src/rectangle.c\
+	src/rhombus.c\
+	src/square.c\
+	src/trapezium.c\
+	src/triangle.c\
+	src/cuboid.c\
+	src/cone.c\
+	src/sphere.c\
+test/test.c\
+unity/unity.c\
+
+# All include folders with header files
+INC	= -Iinc\
+-Iunity\
+
+TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
+
 # All include folders with header files
 INC	= inc/header.h\
+unity/unity.h\
+unity/unity_internals.h\
+
+#Library Inlcudes
+#INCLUDE_LIBS = 
+INCLUDE_LIBS = -lcunit
 
 # Project Output name
 PROJECT_OUTPUT= $(BUILD)/$(PROJECT_NAME).out
@@ -43,6 +71,12 @@ run:$(PROJECT_NAME)
 # Document the code using Doxygen
 doc:
 	make -C ./documentation
+
+# Build and run the unit tests
+test:$(BUILD)
+	gcc $(TEST_SRC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
+	./$(TEST_OUTPUT)
+
 
 
 
