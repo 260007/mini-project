@@ -47,8 +47,10 @@ void test_sphere(void){
     TEST_ASSERT_EQUAL_INT(4.1887,sphere(1,3));
 }
 void test_square(void){
-    TEST_ASSERT_EQUAL_INT(4.0000,square(1,1));
-    TEST_ASSERT_EQUAL_INT(1.0000,square(1,2));
+    float a=1;
+    int b=1,c=2;
+    TEST_ASSERT_EQUAL_INT(4.0000,square(&a,&b));
+    TEST_ASSERT_EQUAL_INT(1.0000,square(&a,&c));
     //TEST_ASSERT_EQUAL_INT(4.1887,sphere(1,3));
 }
 void test_trapezium(void){
