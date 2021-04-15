@@ -52,11 +52,11 @@ System design is a solution for “HOW TO” approach to the creation of a new s
 
 ## Low Level Requirements
 
-|      ID          |Description                       |HLR ID|   |Status                         |
-|----------------|-------------------------------|-----------------------------|
-|LR_01| Using Various functions based on shapes    |HR_03|    |Implemented            |
-|LR_02|Using functions to find area, perimeter, CSA, TSA and volume       |HR_03|    |Implemented|
-|LR_03|Receiving the input, the system must call the appropriate function which will process the inputs and give the desired output |HR_03| |Implemented|
-|LR_04| No negative input should be rovided by user |HR_02| |Future|
-|LR_05| More shape related functions can be incorporated for making conplete munsuration calculator tool |HR_01||Future|
+| ID | Description | HLR ID | Status (Implemented/Future) |
+| ------ | --------- | ------ | ----- |
+| LR01 | Using Various functions based on shapes| HR03 | Implemented |
+| LR02 | Using functions to find area, perimeter, CSA, TSA and volume| HR03 | Implemented |
+| LR03 | Receiving the input, the system must call the appropriate function which will process the inputs and give the desired output| HR04 | Implemented |
+| LR04 | No negative input should be provided by user | HR02 | Future |
+| LR05 |More shape related functions can be incorporated for making conplete munsuration calculator too | HR01 | FUTURE |
 
