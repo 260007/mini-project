@@ -1,7 +1,7 @@
 #include "inc/header.h"
 #include <math.h>
 #include<stdio.h>
-#define PI 3.141
+//#define PI 3.141
 float cuboid(float,float,float,float,int);
 float cone(float,float,int);
 float sphere(float,int);
