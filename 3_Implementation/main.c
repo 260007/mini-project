@@ -1,14 +1,21 @@
 #include "inc/header.h"
 #include <math.h>
 #include<stdio.h>
-//#define PI 3.141
-float cuboid(float,float,float,float,int);
-float cone(float,float,int);
-float sphere(float,int);
+#include<stdlib.h>
 int main()
 {
-    int c,choice;
+    int c,choice,choice1;
     float result,r,side1,side2,side3,side,diagonal1,diagonal2,height,side4;
+    float (*circle_fptr)(float , int) = NULL;
+    float (*triangle_fptr)(float, float, float , int) = NULL;
+    float (*square_fptr)(float * , int *) = NULL;
+    float (*cuboid_fptr)(float, float, float ,float, int) = NULL;
+
+    circle_fptr = &circle;
+    triangle_fptr=&triangle;
+    square_fptr=&square;
+    cuboid_fptr=&cuboid;
+
     printf("WELCOME TO MENSURATION CALCULATOR\n");
     while(c!=0)
     {
@@ -32,7 +39,7 @@ int main()
         printf("1.For CIRCUMFERENCE\n");
         printf("2.For AREA\n");
         scanf("%f%d",&r,&choice);
-        result=circle(r,c);
+        result = (*circle_fptr)(r,choice);
         printf("%f\n",result);
     }
     if(c==2)
@@ -41,7 +48,7 @@ int main()
         printf("1.For Peirmeter\n");
         printf("2.For AREA\n");
         scanf("%f%f%f%d",&side1,&side2,&side3,&choice);
-        result=triangle(side1,side2,side3,choice);
+        result=(*triangle_fptr)(side1,side2,side3,choice);
         printf("%f\n",result);
     }
      if(c==3)
@@ -50,8 +57,17 @@ int main()
         printf("1.For Peirmeter\n");
         printf("2.For AREA\n");
         scanf("%f%d",&side,&choice);
-        result=square(side,choice);
+       // void *ptr=&side;
+        float *ptr;
+        int *ptrc;
+        ptr=(float*)malloc(sizeof(float));
+        ptr=&side;
+        ptrc=(int*)malloc(sizeof(int));
+        ptrc=&choice;
+        result=(*square_fptr)(ptr,ptrc);
         printf("%f\n",result);
+        free(ptr);
+        free(ptrc);
     }
     if(c==4)
     {
@@ -107,7 +123,7 @@ int main()
         printf("2.For TOTAL SURFACE AREA\n");
         printf("3.For VOLUME\n");
         scanf("%f%f%f%f%d\n",&side1,&side2,&side3,&height,&choice);
-        result=cuboid(side1,side2,side3,height,choice);
+        result=(*cuboid_fptr)(side1, side2, side3 ,height,choice);
         printf("%f\n",result);   
     }
     if(c==10)
