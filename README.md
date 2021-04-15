@@ -1,5 +1,4 @@
-# mini-project
-mini project for LNT Technology Services
+# Mini-project for LNT Technology Services
 
 # SDLC_Activity_Based_Learning
 Build | Code Quality | Unity | [Git Inspector](using github.io option)|Valgrind|
@@ -21,17 +20,8 @@ Folder             | Description
 
 SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`260007` | Ganesh Shenoy  | Feature A, B etc    | X No     | X No   |X No   |X No     
-## Challenges Faced and How Was It Overcome
-
-1.  ABC
-2.  BCD
-3.  ...
-4.  ...
+`260007` | Ganesh Shenoy  | Calculates various parameters of 2D ands 3D  shapes.  | -     | -   |11    |11      
 
 ## Learning Resources
-1.  [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-2.  [markdownBasics](https://guides.github.com/features/mastering-markdown/)
-3.  [git inspector](https://github.com/ejwa/gitinspector.git)
-4.  [github workflow](https://docs.github.com/en/actions/learn-github-action)//
+1.  Let Us C by Yashavant Kanetkar
 
