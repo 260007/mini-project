@@ -26,16 +26,16 @@ The system mainly involves eleven functions. That includes almost all basic 2D a
 
 # 4 W's and 1 H
 ### WHO 
- The project can be used almost by all. All the financial related employees and students can use the program to find out the answer they need. At the end,  user satisfaction is the goal  of the project.
+ The project can be used almost by all institutions(manufacturing,school) where calculation related to mensuration are required. All the design employees and students can use the program to find out the answer they need.
 ### WHAT
-Calculations related to basic math and finance can be calculated quickly. All the basics functionalities are included in the project. User can use the program efficiently and get the required results.
+Calculations related to basic mensuration can be calculated quickly. All the basics functionalities are included in the project. User can use the program efficiently and get the required results.
 
 ### WHEN
-The project can be used at the time of solving the calculations 
-and get the results for basic and finance related problems. The result will be obtained quickly.
+The project can be used at the time of solving the mensuration calculations 
+and get the results for related problems. The result will be obtained quickly.
 
 ### WHERE
-In all the domains it can be used. As the project is portable and user-friendly, it can be easily implemented on the mobile systems and finance companies. It should overcome all the drawbacks of the Old existing system and most important of all meet the user requirements.
+In all the domains where calculations related to measurements it can be used. As the project is portable and user-friendly, it can be easily implemented on the mobile systems and design annd manufacturing companies. It should overcome all the drawbacks of the Old existing system and most important of all meet the user requirements.
 
 ### HOW
 System design is a solution for “HOW TO” approach to the creation of a new system. It translates system requirements into ways by which they can be made operational. It is a translational from a user oriented document to a document oriented programmers. For that, it provides the understanding and procedural details necessary for the implementation. Here UML diagrams are used to supplement the working of the new system. The system thus made should be reliable, durable and above all should have least possible maintenance costs.
