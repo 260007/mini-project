@@ -130,6 +130,6 @@ int main()
         result=sphere(r,choice);
         printf("%f\n",result);   
     }
-    c=1;
+    //c=1;
     }
 }
