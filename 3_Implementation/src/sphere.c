@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include"../inc/header.h"
 #include<math.h>
-#define PI 3.1410
+//#define PI 3.1410
 float sphere(float r,int choice)
 {
     if(choice==1)
