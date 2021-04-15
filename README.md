@@ -2,10 +2,11 @@
 mini project for LNT Technology Services
 
 # SDLC_Activity_Based_Learning
-
-Build | Code Quality | Unity | [Git Inspector](using github.io option)
-|---------|--------------|-----------|------------------
+Build | Code Quality | Unity | [Git Inspector](using github.io option)|Valgrind|
+|---------|--------------|-----------|------------------|----------------------|
 [![C/C++ CI](https://github.com/260007/mini-project/actions/workflows/C-build.yml/badge.svg)](https://github.com/260007/mini-project/actions/workflows/C-build.yml)|[![Static Check](https://github.com/260007/mini-project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/260007/mini-project/actions/workflows/cppcheck.yml)  [![Codacy Badge](https://app.codacy.com/project/badge/Grade/21c5cae1b5844158b9eb3d4c80125c89)](https://app.codacy.com/gh/260007/mini-project/dashboard?branch=main=Badge_Grade) |[![Unit Testing](https://github.com/260007/mini-project/actions/workflows/Unity%20Testing1.yml/badge.svg)](https://github.com/260007/mini-project/actions/workflows/Unity%20Testing1.yml) | [![git inspector CI](https://github.com/260007/mini-project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/260007/mini-project/actions/workflows/gitinspector.yml)
+(https://github.com/260007/mini-project5/Mini_Project_LTTS/actions/workflows/gitinspector.yml)|[![Valgrind](https://github.com/260007/mini-project/Mini_Project_LTTS/actions/workflows/ValgrindTest.yml/badge.svg)](https://github.com/260007/mini-project5/Mini_Project_LTTS/actions/workflows/ValgrindTest.yml)|
+
 
 ## Folder Structure
 Folder             | Description
