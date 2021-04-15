@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include"../inc/header.h"
 #include<math.h>
-#define PI 3.1410
+//#define PI 3.1410
 float cone(float r,float height,int choice)
 {
     float l= sqrt(pow(r,2)+pow(height,2));
