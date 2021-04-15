@@ -58,5 +58,5 @@ System design is a solution for “HOW TO” approach to the creation of a new s
 | LR02 | Using functions to find area, perimeter, CSA, TSA and volume| HR03 | Implemented |
 | LR03 | Receiving the input, the system must call the appropriate function which will process the inputs and give the desired output| HR04 | Implemented |
 | LR04 | No negative input should be provided by user | HR02 | Future |
-| LR05 |More shape related functions can be incorporated for making conplete munsuration calculator too | HR01 | FUTURE |
+| LR05 |More shape related functions can be incorporated for making conplete munsuration calculator too | HR01 | Future |
 
