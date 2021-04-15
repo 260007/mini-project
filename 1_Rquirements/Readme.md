@@ -46,20 +46,17 @@ System design is a solution for “HOW TO” approach to the creation of a new s
 
 |      ID          |Description                          |Status                         |
 |----------------|-------------------------------|-----------------------------|
-|HR_01|Operating System (Windows 10/Linux)       |Implemented            |
-|HR_02|C language            |Implemented|
-|HR_03|Pentium IV Processor  |Implemented|
-|HR_04|RAM(512MB)|Implemented|
-|HR_05|Hard Disk(2GB)|Implemented|
+|HR_01|User shall be able to give inputs       |Implemented            |
+|HR_02|Desired input should be given with proper units            |Implemented|
+|HR_03| Selection of proper function          |Implemented|
 
 ## Low Level Requirements
 
-|      ID          |Description                          |Status                         |
+|      ID          |Description                       |HLR ID|   |Status                         |
 |----------------|-------------------------------|-----------------------------|
-|LR_01| Using Addition, Subtraction, Multiplication, Division functions        |Implemented            |
-|LR_02|Using functions to find simple and compound interests and total amount            |Implemented|
-|LR_03|Using functions to find factorial, power, log and exponential   |Implemented|
-|LR_04|Functions to find trigonometric operations |Future|
-|LR_05|Functions to display hex, octal, binary and ASCII of a decimal number |Future|
-|LR_06| Bitwise logical operations |Future|
+|LR_01| Using Various functions based on shapes    |HR_03|    |Implemented            |
+|LR_02|Using functions to find area, perimeter, CSA, TSA and volume       |HR_03|    |Implemented|
+|LR_03|Receiving the input, the system must call the appropriate function which will process the inputs and give the desired output |HR_03| |Implemented|
+|LR_04| No negative input should be rovided by user |HR_02| |Future|
+|LR_05| More shape related functions can be incorporated for making conplete munsuration calculator tool |HR_01||Future|
 
