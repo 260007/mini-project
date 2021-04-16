@@ -1,9 +1,9 @@
 # DESIGN
 
 ## HIGH LEVEL DESIGN 
-*   High level layout#1
+*  Architecture Diagram
 ![Architecture](https://github.com/260007/mini-project/blob/main/2_Design/HLD_1.png)
-*   High level layout#2
+* Use-Case Diagram
 ![Architecture](https://github.com/260007/mini-project/blob/main/2_Design/HLD_2.png)
 
 ## Low Level Design 
