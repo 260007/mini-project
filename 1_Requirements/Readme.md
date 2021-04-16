@@ -19,10 +19,10 @@ Design engineering , manufacturing industries, Gardening applications always req
 
 The system mainly involves eleven functions. That includes almost all basic 2D and 3D shapes. All the functions return values depending on choices selected by user. 
 # Architectural Design
-![Description](https://github.com/260007/mini-project/blob/main/1_Rquirements/Architectural_diagram.png)
+![Description](https://github.com/260007/mini-project/blob/main/5_Images/Architectural_diagram.png)
 
 # SWOT Analysis
-![Description](https://github.com/260007/mini-project/blob/main/1_Rquirements/SWOT_ANALYSIS.png)
+![Description](https://github.com/260007/mini-project/blob/main/5_Images/SWOT_ANALYSIS.png)
 
 # 4 W's and 1 H
 ### WHO 
