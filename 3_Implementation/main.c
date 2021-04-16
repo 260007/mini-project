@@ -6,7 +6,7 @@ int main()
 {
     int c,choice,choice1;
     float result,r,side1,side2,side3,side,diagonal1,diagonal2,height,side4;
-    float (*circle_fptr)(float , int) = NULL;
+    float (*circle_fptr)(float , int) = NULL;//Following section was could have been achieved without using function pointers but only to implement function pointers concept limited number of functions were called using function pointers.
     float (*triangle_fptr)(float, float, float , int) = NULL;
     float (*square_fptr)(float * , int *) = NULL;
     float (*cuboid_fptr)(float, float, float ,float, int) = NULL;
@@ -60,7 +60,7 @@ int main()
        // void *ptr=&side;
         float *ptr;
         int *ptrc;
-        ptr=(float*)malloc(sizeof(float));
+        ptr=(float*)malloc(sizeof(float));//Following section could have been achieved without using dynamic memory but only to implement the concept of dynamic memory and passing by reference limited number of function have this type of implementation.
         ptr=&side;
         ptrc=(int*)malloc(sizeof(int));
         ptrc=&choice;
