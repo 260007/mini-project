@@ -2,6 +2,7 @@
 #include <math.h>
 #include<stdio.h>
 #include<stdlib.h>
+
 int main()
 {
     int c,choice,choice1;
@@ -17,8 +18,10 @@ int main()
     cuboid_fptr=&cuboid;
 
     printf("WELCOME TO MENSURATION CALCULATOR\n");
+    
     while(c!=0)
     {
+        
     printf("PLEASE SELECT YOUR CHOICE");
      printf("SELECT THE SHAPE\n");
        printf("1.CIRCLE\n");
@@ -33,6 +36,7 @@ int main()
        printf("10.CONE\n");
        printf("11.SPHERE\n");
     scanf("%d",&c);
+        
     if(c==1)
     {
         printf("Enter radius and choice\n");
@@ -42,6 +46,7 @@ int main()
         result = (*circle_fptr)(r,choice);
         printf("%f\n",result);
     }
+        
     if(c==2)
     {
         printf("Enter side1,side2,side3 and choice\n");
@@ -51,13 +56,13 @@ int main()
         result=(*triangle_fptr)(side1,side2,side3,choice);
         printf("%f\n",result);
     }
+        
      if(c==3)
     {
         printf("Enter side and choice\n");
         printf("1.For Peirmeter\n");
         printf("2.For AREA\n");
         scanf("%f%d",&side,&choice);
-       // void *ptr=&side;
         float *ptr;
         int *ptrc;
         ptr=(float*)malloc(sizeof(float));//Following section could have been achieved without using dynamic memory but only to implement the concept of dynamic memory and passing by reference limited number of function have this type of implementation.
@@ -69,6 +74,7 @@ int main()
         free(ptr);
         free(ptrc);
     }
+        
     if(c==4)
     {
         printf("Enter diagonal1 and diagonal2 and choice\n");
@@ -78,6 +84,7 @@ int main()
         result=rhombus(diagonal1,diagonal2,choice);
         printf("%f\n",result);
     }
+        
     if(c==5)
     {
         printf("Enter side1,side2 and choice\n");
@@ -87,6 +94,7 @@ int main()
         result=rectangle(side1,side2,choice);
         printf("%f\n",result);
     }
+        
     if(c==6)
     {
         printf("Enter side1,side2,height and choice\n");
@@ -96,6 +104,7 @@ int main()
         result=parallelogram(side1,side2,height,choice);
         printf("%f\n",result);
     }
+        
     if(c==7)
     {
         printf("Enter side1,side2,side3,side4,height and choice\n");
@@ -106,6 +115,7 @@ int main()
         printf("%f\n",result);
         
     }
+        
     if(c==8)
     {
         printf("Enter side and choice\n");
@@ -116,6 +126,7 @@ int main()
         result=cube(side,choice);
         printf("%f\n",result);   
     }
+        
     if(c==9)
     {
         printf("Enter side1,side,side3,height and choice\n");
@@ -126,6 +137,7 @@ int main()
         result=(*cuboid_fptr)(side1, side2, side3 ,height,choice);
         printf("%f\n",result);   
     }
+        
     if(c==10)
     {
         printf("Enter Radius,height and choice\n");
@@ -136,6 +148,7 @@ int main()
         result=cone(r,height,choice);
         printf("%f\n",result);   
     }
+        
     if(c==11)
     {
         printf("Enter radius and choice\n");
@@ -146,6 +159,6 @@ int main()
         result=sphere(r,choice);
         printf("%f\n",result);   
     }
-    //c=1;
+        
     }
 }
